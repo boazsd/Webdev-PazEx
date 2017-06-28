@@ -1,5 +1,6 @@
 body {
     direction: rtl;
+    font-family: Arial (Hebrew);
 }
 
 .main {
@@ -8,6 +9,10 @@ body {
 
 header {
     background-color: gray;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+
 }
 
 .headtabs {
@@ -31,3 +36,55 @@ footer {
 hr {
     background-color: white;
 }
+
+nav ul {
+  list-style-type: none;
+  /*overflow: hidden;*/
+}
+
+#mainnav {
+    background-color: gray;
+}
+
+nav ul li {
+  float: right;
+}
+
+nav ul li a {
+  display: inline-block;
+  text-decoration: none;
+  font-family: Arial;
+  font-size: 14px;
+  padding: 5px 5px;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+    display: block;
+    font-size: 12px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+a:hover {
+  background-color: grey;
+}
+
+.dropdown-content a:hover {
+  background-color: grey;
+}
+
+
