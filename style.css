@@ -3,8 +3,9 @@ body {
     font-family: Arial (Hebrew);
 }
 
-.main {
+#main {
     width: 900px;
+    margin: auto;
 }
 
 header {
@@ -12,32 +13,17 @@ header {
     font-size: 17px;
     font-weight: bold;
     color: white;
+    height: 102px;
 
 }
 
-.headtabs {
-    width: 33%;
-    height: 200px;
-    border: 2px solid yellow;
-    border-radius: 0px 0px 0px 10px;
-}
 
-.bottomtabs {
-    width: 33%;
-    height: 300px;
-    border: 2px solid green;
-    border-radius: 0px 0px 10px 0px;
-}
-
-footer {
-    background-color: gray;
-}
 
 hr {
     background-color: white;
 }
 
-nav ul {
+#navul {
   list-style-type: none;
   /*overflow: hidden;*/
 }
@@ -48,6 +34,7 @@ nav ul {
 
 nav ul li {
   float: right;
+  height: 1em;
 }
 
 nav ul li a {
@@ -65,14 +52,13 @@ nav ul li a {
 .dropdown-content {
   display: none;
   position: absolute;
-  width: 120px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
 .dropdown-content a {
     display: block;
-    font-size: 12px;
+    font-size: 17px;
 }
 
 .dropdown:hover .dropdown-content {
@@ -87,4 +73,36 @@ a:hover {
   background-color: grey;
 }
 
+
+.headtabs {
+    width: 33.3%;
+    height: 355px;
+    border: 2px solid yellow;
+}
+
+.bottomtabs {
+    width: 33%;
+    height: 300px;
+    border: 2px solid green;
+    border-radius: 0px 0px 10px 0px;
+}
+
+footer {
+    background-color: gray;
+}
+
+.innerdiv {
+    position: relative;
+    right: 10px;
+    top: 100px;
+    width: 228px;
+    height: 77px;
+    overflow: hidden;
+}
+
+.uptabimg {
+    position: relative;
+    right: 0;
+    top: 0;
+}
 
