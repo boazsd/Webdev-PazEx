@@ -1,0 +1,33 @@
+body {
+    direction: rtl;
+}
+
+.main {
+    width: 900px;
+}
+
+header {
+    background-color: gray;
+}
+
+.headtabs {
+    width: 33%;
+    height: 200px;
+    border: 2px solid yellow;
+    border-radius: 0px 0px 0px 10px;
+}
+
+.bottomtabs {
+    width: 33%;
+    height: 300px;
+    border: 2px solid green;
+    border-radius: 0px 0px 10px 0px;
+}
+
+footer {
+    background-color: gray;
+}
+
+hr {
+    background-color: white;
+}
