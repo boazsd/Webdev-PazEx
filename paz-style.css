@@ -1,6 +1,6 @@
 body {
     direction: rtl;
-    font-family: Arial (Hebrew);
+    font-family: Arial;
     box-sizing: border-box;
 }
 
@@ -49,12 +49,24 @@ header {
 }
 
 footer {
-    border: 2px solid yellow;
     background-color: gray;
-    font-size: 17px;
-    font-weight: bold;
+    font-size: 14px;
+    font-weight: normal;
     color: white;
     z-index: 999999;
     height: 38px;
     margin-top: 18px;
+    padding-top: 1px;
 }
+
+ul li {
+    float: right;
+    list-style-type: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+
