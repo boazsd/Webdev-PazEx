@@ -15,13 +15,22 @@ body {
 
 .row {
     border: 1px solid red;
+    margin-top: 18px;
 }
 
 .column {
     float:right;
     border: 1px solid blue;
+    width: 31%;
+    margin: 0 9px;
+}
+
+.topcol {
     height: 356px;
-    width: 33%;
+}
+
+.bottomcol {
+    height: 216px;    
 }
 
 .clearfix::after {
@@ -30,12 +39,22 @@ body {
     display: table;
 }
 
-header, footer {
+header {
     border: 2px solid yellow;
     background-color: gray;
     font-size: 17px;
     font-weight: bold;
     color: white;
-    height: 102px;
+    height: 105px;
+}
 
+footer {
+    border: 2px solid yellow;
+    background-color: gray;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    z-index: 999999;
+    height: 38px;
+    margin-top: 18px;
 }
