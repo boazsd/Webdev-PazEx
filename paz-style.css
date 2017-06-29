@@ -1,0 +1,41 @@
+body {
+    direction: rtl;
+    font-family: Arial (Hebrew);
+    box-sizing: border-box;
+}
+
+#main {
+    width: 900px;
+    margin: auto;
+}
+
+#container {
+    border: 1px solid green;
+}
+
+.row {
+    border: 1px solid red;
+}
+
+.column {
+    float:right;
+    border: 1px solid blue;
+    height: 356px;
+    width: 33%;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+header, footer {
+    border: 2px solid yellow;
+    background-color: gray;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    height: 102px;
+
+}
