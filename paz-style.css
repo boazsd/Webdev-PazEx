@@ -61,12 +61,12 @@ footer {
     padding-top: 1px;
 }
 
-ul li {
+footer ul li {
     float: right;
     list-style-type: none;
 }
 
-ul li a {
+footer ul li a {
     text-decoration: none;
     color: white;
 }
@@ -136,12 +136,12 @@ div.overlaydiv {
 #primary_nav_wrap ul a
 {
 	display:block;
-	color: white;
 	text-decoration:none;
 	font-weight:700;
 	font-size:12px;
 	line-height:32px;
 	padding:0 15px;
+    color: white;
 }
 
 #primary_nav_wrap ul li
@@ -159,7 +159,8 @@ div.overlaydiv {
 
 #primary_nav_wrap ul li:hover
 {
-	background: red;
+	background: #cccccc;
+    color: blue;
 }
 
 #primary_nav_wrap ul ul
