@@ -20,6 +20,7 @@ body {
 }
 
 .column {
+    position: relative;
     float:right;
     width: 290px;
     margin: 0 4px;
@@ -70,7 +71,7 @@ ul li a {
     color: white;
 }
 
-div.topcol img {
+img.topimg {
     position: absolute;
     border: 1px solid yellow;
     border-radius: 0px 0px 30px 0px;
@@ -79,5 +80,42 @@ div.topcol img {
 ul.footerdemo li.sep {
     padding: 4px;
 }
+div.overlaydiv {
+    position: absolute;
+    width: 228px;
+    height: 77px;
+    overflow: hidden;
+    padding: 10px;
+    left: 38px;
+    bottom: 6px;    
+    border-radius: 0 0 30px 0;
+    background-color: gray; 
+    opacity: 0.9;
+    color: white;  
+}
 
+.colh3 {
+    font-size: 14px;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+.coltext {
+    height: 77px;
+    width: 229px;
+    font-size: 13px;
+    padding: 0px;
+    margin: 0;
+    line-height: 1;
+}
+
+.cola {
+    float: left;
+    position: absolute;
+    bottom: 4px;
+    left: 20px;
+    font-size: 13px;
+    color: white;
+}
 
