@@ -118,56 +118,80 @@ div.overlaydiv {
     font-size: 13px;
     color: white;
 }
-#navul {
-  list-style-type: none;
-  /*overflow: hidden;*/
+
+#primary_nav_wrap
+{
 }
 
-#mainnav {
-    background-color: gray;
+#primary_nav_wrap ul
+{
+    z-index: 99999;
+	list-style:none;
+	position:relative;
+	float:right;
+	margin:0;
+	padding:0
 }
 
-nav ul li {
-  float: right;
-  height: 1em;
+#primary_nav_wrap ul a
+{
+	display:block;
+	color: white;
+	text-decoration:none;
+	font-weight:700;
+	font-size:12px;
+	line-height:32px;
+	padding:0 15px;
 }
 
-nav ul li a {
-  display: inline-block;
-  text-decoration: none;
-  font-family: Arial;
-  font-size: 14px;
-  padding: 5px 5px;
+#primary_nav_wrap ul li
+{
+	position:relative;
+	float:right;
+	margin:0;
+	padding:0;
 }
 
-.dropdown {
-  position: relative;
+#primary_nav_wrap ul li.current-menu-item
+{
+	background: gray;
 }
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
+#primary_nav_wrap ul li:hover
+{
+	background: red;
 }
 
-.dropdown-content a {
-    display: block;
-    font-size: 17px;
+#primary_nav_wrap ul ul
+{
+	display:none;
+	position:absolute;
+	top:100%;
+	right:0;
+	background:gray;
+	padding:0;
+    width: inherit;
 }
 
-.dropdown:hover .dropdown-content {
-  display: block;
+#primary_nav_wrap ul ul li
+{
+	float:none;
+    width: 130px;
 }
 
-a:hover {
-  background-color: grey;
+#primary_nav_wrap ul ul a
+{
+	line-height:120%;
+	padding: 10px 15px;
 }
 
-.dropdown-content a:hover {
-  background-color: grey;
+#primary_nav_wrap ul ul ul
+{
+	top:0;
+	left:100%;
 }
 
-
-
-
+#primary_nav_wrap ul li:hover > ul
+{
+	display:block;
+}
