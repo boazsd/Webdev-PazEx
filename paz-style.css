@@ -1,3 +1,7 @@
+* {
+    
+}
+
 body {
     direction: rtl;
     font-family: Arial;
@@ -12,6 +16,55 @@ body {
 #container {
     border: 1px solid green;
 
+}
+
+.homedemo {
+    height: 20px;
+    width: 16px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.pazlogo {
+    position: absolute;
+    bottom: -20px;
+    right: -8px;
+}
+
+div.language {
+    position: absolute;
+    top: 20px;
+    left: 180px;
+}
+
+a.language {
+    font-size: 13px;
+    color: white;
+    text-decoration: none;
+}
+
+.searchtext {
+    box-sizing: border-box;
+    float: right;
+    width: 132px;
+    height: 19px;
+    position: absolute;
+}
+
+.searchdiv {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    width: 152px;
+}
+
+.searchbtn{
+    float:left;
+    width: 19px;
+    height: 19px;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
 }
 
 .row {
@@ -42,12 +95,12 @@ body {
 }
 
 header {
-    border: 1px solid yellow;
     background-color: gray;
     font-size: 17px;
     font-weight: bold;
     color: white;
     height: 105px;
+    position: relative;
 }
 
 footer {
@@ -78,7 +131,8 @@ img.topimg {
 }
 
 ul.footerdemo li.sep {
-    padding: 4px;
+    padding: 5px;
+    margin: 0px;
 }
 div.overlaydiv {
     position: absolute;
@@ -121,6 +175,20 @@ div.overlaydiv {
 
 #primary_nav_wrap
 {
+    position: relative;
+    top: 72px;
+    margin: 0 143px 0 0;
+    line-height: 1em;
+}
+
+#primary_nav_wrap hr.sep {
+    padding: 0px;
+    margin: 0px;
+}
+
+#primary_nav_wrap li.sep {
+    padding: 7px 2px;
+    margin: 0px;
 }
 
 #primary_nav_wrap ul
@@ -130,7 +198,7 @@ div.overlaydiv {
 	position:relative;
 	float:right;
 	margin:0;
-	padding:0
+	padding:0;
 }
 
 #primary_nav_wrap ul a
@@ -163,6 +231,12 @@ div.overlaydiv {
     color: blue;
 }
 
+#primary_nav_wrap ul li.sep:hover
+{
+    background-color: gray;
+    color: white;
+}
+
 #primary_nav_wrap ul ul
 {
 	display:none;
@@ -177,13 +251,12 @@ div.overlaydiv {
 #primary_nav_wrap ul ul li
 {
 	float:none;
-    width: 130px;
+    width: 150px;
 }
 
 #primary_nav_wrap ul ul a
 {
-	line-height:120%;
-	padding: 10px 15px;
+	padding: 0px 10px;
 }
 
 #primary_nav_wrap ul ul ul
